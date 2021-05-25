@@ -14,7 +14,7 @@ import com.nuvu.backendtarjetas.rest.security.service.RolService;
  *
  */
 
-/**
+
 
  @Component
  public class CreateRoles implements CommandLineRunner {
@@ -34,4 +34,4 @@ import com.nuvu.backendtarjetas.rest.security.service.RolService;
  }
 
  }
-*/
+
