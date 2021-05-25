@@ -9,7 +9,6 @@ security:
       expiration: 3000 # 5 minutes duration by default: 5 minutes * 60 seconds * 1000 miliseconds
 
 spring:
-
   devtools:
     livereload:
       enabled: true
@@ -21,7 +20,7 @@ spring:
       dialect: org.hibernate.dialect.PostgreSQL10Dialect
     show-sql: true
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: org.postgresql.Driver
     url: :postgres://zkgzyjzlltzkrk:1ba00899441eda4c4611e1b901b885f97ba69d74dd5f08c8ecfe02692cbb91ec@ec2-34-200-94-86.compute-1.amazonaws.com:5432/d816dcvr3led53
     username: zkgzyjzlltzkrk
     password: 1ba00899441eda4c4611e1b901b885f97ba69d74dd5f08c8ecfe02692cbb91ec
